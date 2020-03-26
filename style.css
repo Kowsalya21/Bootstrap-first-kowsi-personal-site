@@ -1,0 +1,13 @@
+body{
+    background-color:lightcoral;
+    box-sizing: border-box;
+
+}
+
+.flex-sm-fill{
+    color:purple;
+}
+.dropdown-item{
+   background-color:papayawhip;
+   color:purple;
+}
