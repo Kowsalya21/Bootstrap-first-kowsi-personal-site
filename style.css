@@ -1,1 +1,25 @@
+body{
+    box-sizing: border-box;
+  height:800px;
+    background-image:linear-gradient(pink ,lightblue);
+    }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+
+
+
+
+
+
 
