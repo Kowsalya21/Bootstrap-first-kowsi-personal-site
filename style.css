@@ -1,24 +1,23 @@
 body{
-    box-sizing: border-box;
-  height:800px;
-    background-image:linear-gradient(pink ,lightblue);
-    }
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  
+  overflow-x:auto;
+  scroll-behavior: smooth;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} 
-
-
-
-
-
-
+.bg-img{
+  background-image:url('Images/rose.jpeg');
+   background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh; 
+}
+.col-md-6{
+  padding:5rem;
+}
+.overlay{
+  background-color:rgba(0, 0, 0, 0.26);
+  color:black;
+  font-family: ravie;
+  font-size: 20px;
+  height: 100vh;
+}
+/* .navbar-toggler-icon{
+  background-color:black;
+} */
