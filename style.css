@@ -14,10 +14,6 @@ body{
 .overlay{
   background-color:rgba(0, 0, 0, 0.26);
   color:black;
-  font-family: ravie;
-  font-size: 20px;
+  font-family: 'Lucida handwriting';
   height: 100vh;
 }
-/* .navbar-toggler-icon{
-  background-color:black;
-} */
