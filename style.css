@@ -1,19 +1,31 @@
-body{
-  overflow-x:auto;
+html {
   scroll-behavior: smooth;
 }
-.bg-img{
-  background-image:url('Images/rose.jpeg');
-   background-size:cover;
-  background-repeat:no-repeat;
-  height:100vh; 
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
-.col-md-6{
-  padding:5rem;
+.bg-img {
+  background-image: url("Images/rose.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.overlay{
-  background-color:rgba(0, 0, 0, 0.26);
-  color:black;
-  font-family: 'Lucida handwriting';
-  height: 100vh;
+/*SHOULD NEVER BE USED SINCE THIS CLASS CAN BE USED THROUGHOUT THE SITE ANYWHERE .col-md-6 {
+  padding: 5rem;
+} */
+.overlay {
+  background-color: rgba(46, 45, 45, 0.479);
+  color: #fff;
+  padding: 10rem 0rem;
+}
+.bg-img h3 {
+  font-family: "Lucida handwriting";
+  word-spacing: 1rem;
+  line-height: 3rem;
+}
+#myquotes{
+  background: #014a50;
+  color: #fff;
+  padding: 10rem 0rem;
 }
