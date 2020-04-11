@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 body {
   overflow-x: hidden;
@@ -14,18 +14,47 @@ body {
 /*SHOULD NEVER BE USED SINCE THIS CLASS CAN BE USED THROUGHOUT THE SITE ANYWHERE .col-md-6 {
   padding: 5rem;
 } */
-.overlay {
+.overlay1 {
   background-color: rgba(46, 45, 45, 0.479);
   color: #fff;
-  padding: 10rem 0rem;
+  padding: 8rem 0rem;
+  margin-bottom: 1rem;
 }
 .bg-img h3 {
   font-family: "Lucida handwriting";
   word-spacing: 1rem;
   line-height: 3rem;
 }
+.container p{
+  font-family: Segoe Print;
+}
 #myquotes{
-  background: #014a50;
-  color: #fff;
-  padding: 10rem 0rem;
+  background: #462A37;
+ color:white;
+  padding: 2rem 0rem;
+  height:100%;
+}
+
+h1{
+  background-color: #ffe3f0;
+  height:50px;
+  width:100%;
+  margin-bottom: 2rem;
+  color:#000000;
+  font-family: ravie;
+}
+#myquotes{
+  font-family: Pristina;
+  font-size: 22px;
+}
+#gallery{
+  background: #a36280;
+  color: #000000;
+  padding: 2rem 0rem;
+  height:100%;
+  width:100%;
+}
+#gallery img{
+  height:200px;
+  width:100%;
 }
