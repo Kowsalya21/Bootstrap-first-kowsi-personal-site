@@ -58,3 +58,16 @@ h1{
   height:200px;
   width:100%;
 }
+#gallery img:hover{
+  opacity:0.9;
+}
+@media screen and (max-width: 600px) {
+  .col-md-3 {
+    flex:50%;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  .example {
+    display: none;
+  }
+} */
