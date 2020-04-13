@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 /*SHOULD NEVER BE USED SINCE THIS CLASS CAN BE USED THROUGHOUT THE SITE ANYWHERE .col-md-6 {
   padding: 5rem;
 } */
@@ -20,7 +21,25 @@ body {
   padding: 8rem 0rem;
   margin-bottom: 1rem;
 }
+
 .bg-img h3 {
+  font-family: "Lucida handwriting";
+  word-spacing: 1rem;
+  line-height: 3rem;
+}
+
+#bg-img1 {
+  background-image: url("Images/te");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay2 {
+  background-color: rgba(46, 45, 45, 0.479);
+  color: #fff;
+  padding: 5rem 0rem;
+  margin-bottom: 1rem;
+}
+#bg-img1 h3 {
   font-family: "Lucida handwriting";
   word-spacing: 1rem;
   line-height: 3rem;
@@ -66,8 +85,69 @@ h1{
     flex:50%;
   }
 }
-/* @media screen and (max-width: 600px) {
-  .example {
-    display: none;
+#story .collapse{
+  font-family:Segoe Print;
+  color:#321019;
+  background-image: url('Images/flow.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:15px;
+  
+}
+#story{
+  font-family: ravie;
+  font-size:25px;
+}
+
+#story1 .collapse{
+  font-family:Segoe Print;
+  color:#321019;
+  background-image: url('Images/don.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:15px;
+  
+}
+#story1{
+  font-family: ravie;
+  font-size:25px;
+}
+
+#story3{
+  font-family: ravie;
+  font-size:25px;
+}
+
+#story3 .collapse{
+  font-family:Segoe Print;
+  color:#321019;
+  background-image: url('Images/fr.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:15px;
+  
+}
+
+
+.dropdown-submenu{
+  position: relative;
+}
+.dropdown-submenu a::after{
+  /* transform: rotate(-90deg); */
+  position: absolute;
+  right: 3px;
+  top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu
+{
+  display: flex;
+  flex-direction: column;
+  /* position: absolute !important; */
+  margin-top: -30px;
+  left: 100%;
+}
+@media screen and (max-width: 600px) {
+  .dropdown-menu{
+      width: 50%;
   }
-} */
+   

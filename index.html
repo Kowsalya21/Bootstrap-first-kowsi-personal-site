@@ -11,38 +11,48 @@
   <title>Kowsalya-first-Bootstrap-site</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-<a class="navbar-brand" href="#">
-      <img src="Images/lll.png" height="100px" width="100px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto nav-tabs nav-pills flex-column flex-sm-row">
+  
+  <nav class="navbar navbar-expand-lg  navbar-light bg-light navbar-toggleable-md">
+    <a class="navbar-brand" href="#">
+        <img src="Images/lll.png" height="100px" width="100px"></a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav ml-auto nav-tabs nav-pills flex-column flex-sm-row">
         <li class="nav-item dropdown">
-          <a class="flex-sm-fill text-sm-center nav-link dropdown-toggle active" data-toggle="dropdown" href="#"
-            role="button" aria-haspopup="true" aria-expanded="false">Life</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><img src="Images/bu.jpg" width="25px" height="20px">Being yourself</a>   
-            <a class="dropdown-item" href="#"><img src="Images/cha.jpg" width="25px" height="20px">Facing challenges</a>
-         
-          </div>   
-    </li> 
-        <li class="nav-item">
-          <a class="flex-sm-fill text-sm-center nav-link" href="#myquotes"> Quotes
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="flex-sm-fill text-sm-center nav-link" href="#gallery">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1"
-            aria-disabled="true">Dislikes</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+            <a class="flex-sm-fill text-sm-center nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            EXISTENCE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">
+                  <img src="Images/bu.jpg" width="25px" height="20px">Being yourself</a>
+                    <ul class="dropdown-menu">
+                      <a class="dropdown-item" href="#story"><img src="Images/st.jpg" width="25px" height="20px">Story 1</a>
+                      <a class="dropdown-item" href="#story1"><img src="Images/st.jpg" width="25px" height="20px">Story 2</a>
+                      <a class="dropdown-item" href="#story3"><img src="Images/st.jpg" width="25px" height="20px">My story</a>
+                    </ul>
+                  </li>
+              <li><a class="dropdown-item" href="#bg-img1"><img src="Images/cha.jpg" width="25px" height="20px">Facing challenges</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#myquotes"> Quotes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1"
+              aria-disabled="true">Dislikes</a>
+          </li>
+    </ul>
+  </div>
+</nav>
   <section class="bg-img">
     <div class="overlay1">
       <div class="container h-100">
@@ -74,6 +84,33 @@
 
      
   </div>
+
+  <section id="story">
+    <div class="container">
+       
+      <button type="button" class="btn btn-lg btn-block" data-toggle="collapse" data-target="#demo">Kutty story 1</button>
+      <div id="demo" class="collapse">
+            <br>&emsp;&emsp;
+    One day King came to his garden and saw withering and dying trees, bushes and flowers.<br>&emsp;
+  
+  An oak said it dies because it can’t be as high as a pine.<br>
+  &emsp;
+  A pine tree was falling down because it could not give grapes like a grapevine.
+  <br>&emsp;
+  Meanwhile the grapevine was dying because it couldn’t blossom like a rose.
+  <br>&emsp;
+  But soon the King found a single plant, pleasing heart, bloomy and fresh.
+  <br>&emsp;
+  The king asked:
+  -All the trees and flowers here are withering, and you are flourishing, why?
+  – I think it comes naturally. You have planted me, because it was Your wish and Your choice. If you would like to grow an oak, grapes or rose, you would plant them. And I cannot be anything else than what I am. So I try to develop my best qualities.
+  <br>&emsp;
+  <b>Look at yourself. You can be only yourself. It is impossible for you to become someone else. You can enjoy life and blossom or you can wither if you do not accept yourself.</b>
+  </div>
+  </div>    
+  </section>
+  <br>
+  
   <section id="myquotes">
     <div class="container">
       <h1 class="text-center"> Quotes</h1>
@@ -95,51 +132,128 @@
         </div>
   </section>
   <br>
+  
+
+<section id="story1">
+  <div class="container">
+     
+    <button type="button" class="btn btn-lg btn-block" data-toggle="collapse" data-target="#deno">Kutty story 2</button>
+    <div id="deno" class="collapse">
+          <br>
+
+&emsp;&emsp;A water bearer had two large pots,one of the pots had a crack in it, and while the other pot was perfect and always delivered a full portion of water.
+At the end of the long walk from the stream to the master’s house, the cracked pot always arrived only half full.
+<br>&emsp;For two years,the bearer delivered only one and a half pots full of water to his master’s house.
+The perfect pot was proud of its accomplishments, fulfilled in the design for which it was made.
+But the poor cracked pot was ashamed of its own imperfection, and miserable that it was unable to accomplish what it had been made to do.
+After two years of enduring this bitter shame, the pot spoke to the water bearer one day. “I am ashamed of myself and I apologize to you.”
+<br>&emsp;
+“Why?” asked the bearer. “What are you ashamed of?” <br>“I have been able, for these past two years, to deliver only half my load to your master’s house.
+ Because of my flaws, you have to do all of this work, and you don’t get full value from your efforts,” the pot said.
+The water bearer felt sorry for the old cracked pot, and in his compassion he said, “As we return to the master’s house, I want you to notice the beautiful flowers along the path.”
+The old cracked pot took notice of the sun warming the beautiful wild flowers on the side of the path<br>&emsp;
+The bearer said to the pot, “Did you not notice that there were flowers only on your side of the path, and not on the other pot’s side? That’s because I have always known about your flaw, 
+and I took advantage of it. I planted flower seeds on your side of the path, and every day while we’ve walked back from the stream, you’ve watered them.
+For two years I have been able to pick these beautiful flowers to decorate my master’s table. Without you being just the way you are, he would not have this beauty to grace his house.”
+.<br>&emsp;<b>Each of us has flaws. We’re all cracked pots.
+But if you let these flaws shine and try being yourself, then you can use your flaws to make the world more beautiful.</b>
+
+
+</div>
+</div>    
+</section>
+<br>
+<section id="bg-img1">
+  <div class="overlay2">
+    <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="col-md-6 mx-auto text-center">
+          <h3>Challenges are what make life <b>interesting</b> <br>and overcoming them is what makes life <b>meaningful</b></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><br>
+
+<div class="container">
+<p> &emsp;&emsp;&emsp;Life is beautiful, and every moment is a celebration of being alive, but one should always be ready to face adversity 
+and challenges. A person who has not encountered difficulties in life can never achieve success. Difficulties test the courage, 
+patience, perseverance, and true character of a human being. Adversity and hardships make a person strong and ready to face the 
+challenges of life.</p>
+<p> 
+  &emsp;&emsp;&emsp; 
+Happiness and sorrow, victory and defeat, day and night are just two sides of the coin. Similarly, life is full of moments of joy,
+ pleasure, success, and comfort punctuated by misery, defeat, failures, and problems. There is no human being on Earth that is strong, 
+ powerful, wise, or rich who has not experienced struggle, suffering, or failure.
+Thus, life should not be just a bed of roses; thorns are also a part of it and should be accepted by us just as we accept 
+the beautiful side of life.Instead of feeling disappointed 
+and disheartened rather remember that the pain of thorns is short-lived, and the beauty of life would soon overcome the prick of thorns. </p>
+<p> &emsp;&emsp;&emsp; 
+To sum up, life is beauteous just as roses, but it has challenges which are like thorns and have to be faced and 
+overcome by all. Those who accept these challenges and succeed are the ones who know how to live life in its true sense. 
+Thus, enjoy life but also be prepared to bear the pricks of pain.</p>
+</div>
+
+<br>
+
+
+<section id="story3">
+  <div class="container">
+     
+    <button type="button" class="btn btn-lg btn-block" data-toggle="collapse" data-target="#deko">My Kutty story</button>
+    <div id="deko" class="collapse">
+          <br>&emsp;&emsp;
+        The first day of my college. Everything and everyone was strange to me. I was completely filled with chaos and anxiety.
+        God sometimes will send unexpected people in our life to comfort us. I got one in my life.
+        The most amazing creature I have ever seen. My sweetheart and my bestest friend "Gladys". When i first saw her I din't know 
+        that our relationship is going to be this much beautiful and blissful. We don't spend much of the time together not even 10 mins 
+        a day. But there is an understanding between us. We don't exchange words but we know each others feelings. <br>&emsp;
+        When you be yourself some will walk off from your life and some will enter into your life. I think this beautiful girl 
+        came to me and changed my life only because I was real to her. She has stood next to me in all the hardships that I had faced 
+        in these two long years. What I am actually trying to say via my kutty story is that we will
+        be ourself only attimes and to some people. You won't get that happiness even if you have lots of people around and still 
+        you pretend and be fake. You will cherish the relationship only with them to whom you show the real you.
+        <br>&emsp;
+        <b>When you be yourself, life will pluck out unwanted people in your life and plant the most beautiful roses- the true ones.</b>
+      </div>
+    </div>    
+    </section>
+    <br>
+
   <section id="gallery">
     
     <div class="container">
       <h1 class="text-center">Gallery</h1>
       <div class="row">
         <!-- <div class="example"> -->
-        <div class="col-md-3"> <img src="Images/y.jpg"></div>
-        <div class="col-md-3"><img src="Images/o.jpg"></div>
-        <div class="col-md-3"><img src="Images/t.jpg"></div>
-        <div class="col-md-3"><img src="Images/p.jpg"></div>
+        <div class="col-md-3"> <img src="Images/y.jpg" class="img-thumbnail"></div>
+        <div class="col-md-3"><img src="Images/o.jpg" class="img-thumbnail"></div>
+        <div class="col-md-3"><img src="Images/t.jpg" class="img-thumbnail"></div>
+        <div class="col-md-3"><img src="Images/p.jpg" class="img-thumbnail"></div>
       </div>
        <br><br>
           <div class="row">
-            <div class="col-md-3"><img src="Images/5.jpg"></div> 
-            <div class="col-md-3"><img src="Images/4.jpg"></div>
-            <div class="col-md-3"><img src="Images/kon.jpg"></div>
-            <div class="col-md-3"><img src="Images/2.jpg"></div>
+            <div class="col-md-3"><img src="Images/5.jpg"  class="img-thumbnail"></div> 
+            <div class="col-md-3"><img src="Images/4.jpg"  class="img-thumbnail"></div>
+            <div class="col-md-3"><img src="Images/kon.jpg" class="img-thumbnail"></div>
+            <div class="col-md-3"><img src="Images/2.jpg" class="img-thumbnail"></div>
       </div><br><br>
           <div class="row">
-            <div class="col-md-3"><img src="Images/j.jpg"></div>
-            <div class="col-md-3"><img src="Images/m.png"></div>
-            <div class="col-md-3"><img src="Images/1.jpg"></div>
-            <div class="col-md-3"><img src="Images/3.jpg"></div>
+            <div class="col-md-3"><img src="Images/j.jpg" class="img-thumbnail"></div>
+            <div class="col-md-3"><img src="Images/m.png" class="img-thumbnail"></div>
+            <div class="col-md-3"><img src="Images/1.jpg" class="img-thumbnail"></div>
+            <div class="col-md-3"><img src="Images/3.jpg" class="img-thumbnail"></div>
           </div>
         </div>
   </section>
+<br>
 
-          
-  One day King came to his garden and saw withering and dying trees, bushes and flowers.
 
-An oak said it dies because it can’t be as high as a pine.
 
-A pine tree was falling down because it could not give grapes like a grapevine.
 
-Meanwhile the grapevine was dying because it couldn’t blossom like a rose.
 
-But soon the King found a single plant, pleasing heart, bloomy and fresh.
 
-The king asked:
--All the trees and flowers here are withering, and you are flourishing, why?
-– I think it comes naturally. You have planted me, because it was Your wish and Your choice. If you would like to grow an oak, grapes or rose, you would plant them. And I cannot be anything else than what I am. So I try to develop my best qualities.
 
-Look at yourself. You can be only yourself. It is impossible for you to become someone else. You can enjoy life and blossom or you can wither if you do not accept yourself.
-       
-  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -147,5 +261,8 @@ Look at yourself. You can be only yourself. It is impossible for you to become s
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ </body>
 </html>
