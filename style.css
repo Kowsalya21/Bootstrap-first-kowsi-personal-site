@@ -23,7 +23,7 @@ body {
 }
 
 .bg-img h3 {
-  font-family: "Lucida handwriting";
+  font-family: "Tempus Sans ITC";
   word-spacing: 1rem;
   line-height: 3rem;
 }
@@ -40,12 +40,12 @@ body {
   margin-bottom: 1rem;
 }
 #bg-img1 h3 {
-  font-family: "Lucida handwriting";
+  font-family: "Tempus Sans ITC";
   word-spacing: 1rem;
   line-height: 3rem;
 }
 .container p{
-  font-family: Segoe Print;
+  font-family: "Segoe Print";
 }
 #myquotes{
   background: #462A37;
@@ -63,7 +63,7 @@ h1{
   font-family: ravie;
 }
 #myquotes{
-  font-family: Pristina;
+  font-family:Vivaldi;
   font-size: 22px;
 }
 #gallery{
@@ -86,7 +86,7 @@ h1{
   }
 }
 #story .collapse{
-  font-family:Segoe Print;
+  font-family:"Trebuchet MS";
   color:#321019;
   background-image: url('Images/flow.jpg');
   background-repeat: no-repeat;
@@ -95,12 +95,12 @@ h1{
   
 }
 #story{
-  font-family: ravie;
+  font-family:Goudy Stout;
   font-size:25px;
 }
 
 #story1 .collapse{
-  font-family:Segoe Print;
+  font-family:Trebuchet MS;
   color:#321019;
   background-image: url('Images/don.jpg');
   background-repeat: no-repeat;
@@ -109,17 +109,17 @@ h1{
   
 }
 #story1{
-  font-family: ravie;
+  font-family:Goudy Stout;
   font-size:25px;
 }
 
 #story3{
-  font-family: ravie;
+  font-family: Goudy Stout;
   font-size:25px;
 }
 
 #story3 .collapse{
-  font-family:Segoe Print;
+  font-family:Trebuchet MS;
   color:#321019;
   background-image: url('Images/fr.jfif');
   background-repeat: no-repeat;
