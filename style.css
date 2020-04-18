@@ -85,15 +85,14 @@ h2{
 #gallery img{
   height:200px;
   width:100%;
+  max-height: auto;
+  
 }
-/* .img-fluid{
-  height:auto;
-  max-width:100%;
-} */
+
 #gallery img:hover{
   opacity:0.9;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .col-md-3 {
     flex:50%;
   }
@@ -168,5 +167,5 @@ h2{
     .dropdown-menu .dropdown-submenu{
         width: auto;
     }  
-
-  
+  }
+   
